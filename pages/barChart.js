@@ -11,7 +11,7 @@ export default function BarChartGender() {
                             labels: ['age: 0-10', 'age: 11-20', 'age: 21-30', 'age: 31-80'],
                             datasets: [{
                                 label: '# of men',
-                                data: [10, 3, 2, 15],
+                                data: [10, 3, 0, 15],
                                 backgroundColor: [
                                     'rgba(54, 162, 235, 0.2)'
                                 ],
@@ -22,7 +22,7 @@ export default function BarChartGender() {
                             },
                                 {
                                     label: '# of female',
-                                    data: [2, 6, 1, 8],
+                                    data: [2, 6, null, 8],
                                     backgroundColor: [
                                         'rgba(255, 99, 132, 0.2)'
                                     ],
