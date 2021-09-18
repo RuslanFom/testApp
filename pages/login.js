@@ -18,6 +18,15 @@ const Login = () => {
     const [passwordDirty, setPasswordDirty] = useState(false)
     const [emailError, setEmailError] = useState('Email did not be empty')
     const [passwordError, setPasswordError] = useState('Password did not be empty')
+    const [formValid, setFormValid] = useState(false)
+
+    useEffect(() => {
+        if (emailError || passwordError) {
+            setFormValid(false)
+        } else {
+            setFormValid(true)
+        }
+    }, [emailError, passwordError])
 
     const emailHandler = (e) => {
         setEmail(e.target.value)
@@ -79,7 +88,7 @@ const Login = () => {
                                 <input onChange={passwordHandler} value={password} onBlur={blurHandle} name="password"
                                        type="password"
                                        placeholder="Enter your password"/>
-                                <button onClick={()=> setShouldRedirect(true)} type="submit">Enter</button>
+                                <button disabled={!formValid} onClick={()=> setShouldRedirect(true)} type="submit">Enter</button>
                             </form>
                         </div>
                     </div>
