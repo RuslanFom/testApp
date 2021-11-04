@@ -8,6 +8,11 @@
 ![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppLoginFail.png)
 ![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppGraphics.png)
 ![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppGraphics2.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/nextAppLoginCode.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/personalPage.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/layout.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/barChartPageActivity.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/barChart.png)
 
 
 
