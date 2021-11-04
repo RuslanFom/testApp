@@ -1,14 +1,14 @@
-import {useEffect, useState} from "react";
-import {useRouter} from "next/router";
-import Head from "next/head";
+import {useEffect, useState} from "react"
+import {useRouter} from "next/router"
+import Head from "next/head"
 
 
 const Redirect = ({to}) => {
-    const router = useRouter();
+    const router = useRouter()
     useEffect(() => {
-        router.push(to);
-    }, [to]);
-    return null;
+        router.push(to)
+    }, [to])
+    return null
 }
 
 const Login = () => {
@@ -69,7 +69,6 @@ const Login = () => {
 
 
     return (
-
         <div id="r13">
             <Head>
                 <title>Login</title>
@@ -98,4 +97,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default Login

@@ -1,7 +1,7 @@
-import LineChart from "./barChartDateActivity";
-import Head from "next/head";
-import {Layout} from "../components/layout";
-import BarChartGender from "./barChart";
+import LineChart from "./barChartDateActivity"
+import Head from "next/head"
+import {Layout} from "../components/layout"
+import BarChartGender from "./barChart"
 
 
 const PersonalPage = () => {
@@ -32,4 +32,4 @@ const PersonalPage = () => {
         </div>)
 }
 
-export default PersonalPage;
+export default PersonalPage

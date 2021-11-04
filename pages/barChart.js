@@ -1,5 +1,5 @@
-import {Bar} from 'react-chartjs-2';
-import {Layout} from "../components/layout";
+import {Bar} from 'react-chartjs-2'
+import {Layout} from "../components/layout"
 
 export default function BarChartGender() {
     return (

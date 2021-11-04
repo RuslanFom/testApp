@@ -1,5 +1,5 @@
-import {Line} from 'react-chartjs-2';
-import {Layout} from "../components/layout";
+import {Line} from 'react-chartjs-2'
+import {Layout} from "../components/layout"
 
 export default function LineChart() {
     return (
