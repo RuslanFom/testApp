@@ -1,3 +1,19 @@
+# Hi everyone!
+#### It's my next.js test app for interview.
+
+
+# Examples of the code
+
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppLogin.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppLoginFail.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppGraphics.png)
+![Image alt](https://github.com/RuslanFom/testApp/blob/master/public/imgExamples/testAppGraphics2.png)
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
